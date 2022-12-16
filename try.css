@@ -1,0 +1,195 @@
+wrap_ul h2{
+    transition: color 1s ease;
+    margin-bottom: 12px;
+  }
+  wrap_ul h3{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+  .detail {
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 1.5s ease, opacity 1s ease;
+  }
+  .detail p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  .btn-more {
+    width: 80px;
+    display: block;
+    background-color: black;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin-left: auto;
+    padding: 6px 6px;
+    margin-top: 12px;
+    text-decoration: none;
+  }h2.title {
+    transition: color 1s ease;
+    margin-bottom: 12px;
+  }
+  .date {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+  .detail {
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 1.5s ease, opacity 1s ease;
+  }
+  .detail p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  .btn-more {
+    width: 80px;
+    display: block;
+    background-color: black;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin-left: auto;
+    padding: 6px 6px;
+    margin-top: 12px;
+    text-decoration: none;
+  }
+
+  .card:hover .img {
+    transform: scale(1.2);
+  }
+
+  .card:hover .info {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .card:hover .detail {
+    max-height: 78px;
+    opacity: 1;
+  }
+
+  .card:hover h2.title {
+    color: #ffc107;
+  }
+  .info {
+    position: absolute;
+    width: calc(100% - 40px); /* 扣除間距，讓資訊保持水平滿版 */
+    bottom: 0; /* 靠下對齊 */
+    padding: 20px;
+    color: #ffffff;
+    transition: background-color 1.5s ease;
+  }
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 3s ease;
+    position: relative;
+    z-index: -1; /* z軸的位置 */
+  }
+  .card {
+    flex: 1;
+    margin: 20px;
+    height: 320px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px; /* 圓角 */
+    box-shadow: 0 0 20px rgba(51, 70, 80, 0.5); /* 外陰影 */
+  }
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0)
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.7) 80%
+      ); /* 圖片的灰階半透明漸層遮罩 */
+    z-index: 0; /* z軸的位置 */
+  }
+  a.link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* z軸的位置 */
+  } .card:hover .img {
+    transform: scale(1.2);
+  }
+
+  .card:hover .info {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .card:hover .detail {
+    max-height: 78px;
+    opacity: 1;
+  }
+
+  .card:hover h2.title {
+    color: #ffc107;
+  }
+  .info {
+    position: absolute;
+    width: calc(100% - 40px); /* 扣除間距，讓資訊保持水平滿版 */
+    bottom: 0; /* 靠下對齊 */
+    padding: 20px;
+    color: #ffffff;
+    transition: background-color 1.5s ease;
+  }
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 3s ease;
+    position: relative;
+    z-index: -1; /* z軸的位置 */
+  }
+  .card {
+    flex: 1;
+    margin: 20px;
+    height: 320px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px; /* 圓角 */
+    box-shadow: 0 0 20px rgba(51, 70, 80, 0.5); /* 外陰影 */
+  }
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0)
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.7) 80%
+      ); /* 圖片的灰階半透明漸層遮罩 */
+    z-index: 0; /* z軸的位置 */
+  }
+  a.link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* z軸的位置 */
+  }
